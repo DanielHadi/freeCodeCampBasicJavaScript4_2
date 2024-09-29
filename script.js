@@ -122,3 +122,7 @@ const startGame = () => {
 startBtn.addEventListener("click", startGame);
 
 
+window.addEventListener("keydown", ({ key }) => {
+  movePlayer(key,8,true);
+});
+
